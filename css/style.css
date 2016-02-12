@@ -16,7 +16,7 @@ body{
 
 main{
     margin: 0 auto;
-    height: 20em;
+    height: 10em;
     width:90%;
     background-color: gold;
     box-sizing: border-box;
@@ -36,13 +36,36 @@ main{
 
 #box_1{
     display:block;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: calc(100%/4);
-    height: 100%;
-    background-color: coral;
+    height:100%;
+    background-color: blanchedalmond;
     float: left;
     box-sizing: border-box;
+}
+
+#box_1_1{
+    margin: 0 auto;
+    display: block;
+    height: calc(100%/4);
+    background-color: mediumaquamarine;
+    
+}
+#box_1_2{
+    margin: 0 auto;
+    display: block;
+    height: calc(100%/4);
+    background-color: aquamarine;
+    
+}
+
+#box_1_3{
+    margin: 0 auto;
+    display: block;
+    height: calc(100%/4);
+    background-color: burlywood;
+    
 }
 
 #box_2{
