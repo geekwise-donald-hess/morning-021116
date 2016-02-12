@@ -1,0 +1,112 @@
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size: 1.3em;
+}
+
+body{
+    height: 100%;
+    width:100%;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    font-size: 2em;
+    
+}
+
+main{
+    margin: 0 auto;
+    height: 10em;
+    width:90%;
+    background-color: gold;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#header{
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    text-align: center;
+    height: 100%;
+    background-color: powderblue;
+    box-sizing: border-box;
+}
+
+
+#box_1{
+    display:block;
+    margin: 0 auto;
+    padding: 0;
+    width: calc(100%/4);
+    height:100%;
+    background-color: blanchedalmond;
+    float: left;
+    box-sizing: border-box;
+}
+
+#box_1_1{
+    margin: 0 auto;
+    display: block;
+    height: calc(100%/4);
+    background-color: mediumaquamarine;
+    
+}
+#box_1_2{
+    margin: 0 auto;
+    display: block;
+    height: calc(100%/4);
+    background-color: aquamarine;
+    
+}
+
+#box_1_3{
+    margin: 0 auto;
+    display: block;
+    height: calc(100%/4);
+    background-color: burlywood;
+    
+}
+
+#box_2{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: calc(100%/4);
+    height: 75%;
+    background-color: violet;
+    float: left;
+    box-sizing: border-box;
+}
+
+#box_3{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: calc(100%/4);
+    height: 50%;
+    background-color: chartreuse;
+    float: left;
+    box-sizing: border-box;
+}
+
+#box_4{
+    display:block;
+    margin:0;
+    padding: 0;
+    width:calc(100%/4);
+    height: 25%;
+    background-color: darkorange;
+    float: left; 
+    box-sizing: border-box;
+}
+
+#footer{
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    text-align: center;
+    height: 100%;
+    background-color: darkturquoise;
+    box-sizing: border-box;
+}
